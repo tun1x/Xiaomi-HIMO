@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -63,7 +67,7 @@ body {
 }
 
 .bike {
-    padding: 100px 0 150px;
+    padding: 100px 0 0;
 }
 
 .bike__inner {
@@ -178,7 +182,8 @@ body {
 }
 
 .info {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    padding-top: 150px;
 }
 
 .info__inner {
@@ -223,6 +228,7 @@ body {
 
 .characteristics {
     margin-bottom: 150px;
+    padding-top: 100px;
 }
 
 .characteristics__title {
@@ -352,8 +358,15 @@ table.iksweb th {
 .price__photo {
     width: 630px;
     height: 430px;
-    margin-left: 150px;
+    /* margin-left: 55px; */
     padding-left: 0;
+}
+
+.form__bike__price{
+    font-size: 32px;
+    line-height: 39px;
+   width: 220px;
+   margin-left: 55px;
 }
 
 .footer {
